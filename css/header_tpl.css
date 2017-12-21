@@ -1,0 +1,42 @@
+/****************************************/
+/* Приклад коду властивостей для header */
+/****************************************/
+
+/* Для закоментованих властивостей можна */
+/* вказати власні значення та зняти коментар */
+
+header {
+    background-size: cover;                                            
+    text-align: left;
+}
+
+header .row {
+    height: 100%;  /* Приклад! Висота header завжди рівна висоті екрану пристрою */
+    align-items: left;  /* Контейнер всередині header .row центрується по поперечній осі (вертикально) */
+	padding:0;
+	
+}
+header .col-md-8 {
+	margin-left:100px;
+}
+.description {
+	font-size:14pt;
+	font-family: 'Spectral', serif;
+	font-style:italic;
+}
+@media screen and (max-width:1100px) {
+	.description {
+	font-size:16pt; 
+	}
+}
+@media screen and (max-width:575px) {
+	h1 {
+		font-size: 6em;
+	}
+	.description {
+		font-size:15pt;
+	}
+header .col-8 {
+	margin-left:60px;
+}
+	}

@@ -1,0 +1,91 @@
+h1{
+	font-family: 'Fira Sans', sans-serif;
+	font-weight:700;
+    font-size:9em;
+    font-weight:700;
+}
+dot {
+	-webkit-animation: color_change 2s infinite alternate;
+	animation: color_change 2s infinite alternate;
+}
+h3 {
+	font-family: 'Fira Sans', sans-serif;
+	font-size:20pt;
+	line-height:3;
+	color:#eee;
+}
+header, section {
+	position:relative;
+}
+header, #s1, #s2, #s3 {
+	background-color:white;
+}
+#vertical {
+	position:absolute;
+	left:30px;
+	bottom:0;
+	margin-bottom:40px;
+	transform: rotate(-90deg);
+	transform-origin: left top 0;
+	font-family: 'Fira Sans', sans-serif;
+	font-size:18pt;
+	font-weight:300;
+}
+
+#s4 #vertical {
+	-webkit-animation: color_change 2s infinite alternate;
+	animation: color_change 2s infinite alternate;
+	margin-bottom:10px;
+}
+#s3 .row {
+  margin-left:80px;;
+    margin-top: 150px;
+}
+#s3 p {
+	font-family: 'Spectral', serif;
+	font-size:12pt;
+	font-style:italic;
+	margin-top:3pt;
+	margin-top:1em;
+	line-height:1.6;
+}
+
+@media screen and (max-width:1100px) {
+	#s3 p {
+		font-size:15pt;
+	}
+	#s3 .row {
+		margin-top:20rem;
+	}
+}
+@media screen and (max-width:900px) {
+	#s3 p {
+		font-size: 13pt;
+	}
+	#s3 .row {
+		margin-top:10rem;
+	}
+	#s3 {
+		min-height:inherit;
+		
+	}
+} 
+@media screen and (max-width:575px) {
+	#vertical {
+		left:20px;
+		font-size:16pt;
+	}
+	#s1 #vertical {
+		display:none;
+	}
+	#s2 h2 {
+		font-size:16pt;
+	}
+	#s3 .row {
+		margin-left:40px;
+		margin-top:10px;
+	}
+	#s4 #vertical {
+		margin-bottom:-10px;
+	}
+}

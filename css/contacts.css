@@ -1,0 +1,43 @@
+#s4 {
+	background-color:#222;
+}
+#s4 .row{
+float:right;
+}
+#s4 .col-12 {
+	padding-left: 3rem;
+}
+#s4 .container {
+	height:7rem;
+	padding-top:2rem;
+}
+.comment {
+	color:#eee;
+	font-weight:100;
+	font-size:14pt;
+	font-family: 'Spectral', serif;
+	font-style:italic;
+}
+.contact {
+	color:#eee;
+	font-weight:400;
+	font-size:18pt;
+	font-family: 'Fira Sans', sans-serif;
+}
+@media screen and (max-width:575px) {
+	#s4 .col-12 {
+	padding-left: 80px;
+	}
+	
+	#s4 .container {
+	height:7rem;
+	padding-top:0;
+}
+	.contact {
+		font-size:15pt;
+		margin:0;
+	}
+	.comment {
+		margin:0;
+	}
+}
